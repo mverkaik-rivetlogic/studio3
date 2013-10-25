@@ -2,15 +2,15 @@
 Requirements
 ------------
 
-To work on or build this application you will first need to install [Node](http://nodejs.org/).
+To work on or build this application you will first need to install [Node.js](http://nodejs.org/).
 
-Node can be installed in the following ways:
+Node.js can be installed in the following ways:
 
 1.   Using the [installer](http://nodejs.org/download/)
      *The Mac installer will install node under /usr/local/bin so you will need to have admin rights to complete the install.
 
 2.   [Building the source code](https://github.com/joyent/node/wiki/Installation)
-     This way you can choose to install Node in a custom folder instead of a global directory by using the --prefix config option, thus you are not required to have admin rights to complete the install.
+     This way you can choose to install Node.js in a custom folder instead of a global directory by using the --prefix config option, thus you are not required to have admin rights to complete the install.
 
 3.   [Via a package manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
 
@@ -29,7 +29,7 @@ To install this application (assuming that the whole repository -studio3- has al
 
 2.   Install the Grunt-CLI and Bower plugins globally:
 
-    `$ npm install -g grunt-cli bower`
+    `$ sudo npm install -g grunt-cli bower`
 
 
 ### Automatic Install for Mac OS X and *nix systems
@@ -38,14 +38,14 @@ To install this application (assuming that the whole repository -studio3- has al
 
     `$ sudo ./install.sh`
 
-    *If you installed node using the installer (**Requirements, step 1**), then you will need admin rights to run the install script since it will install the Grunt-CLI and Bower plugins globally. Otherwise, if you installed Node in a custom folder to which you have write access, then sudo is unnecessary to run the script: *
+    *If you installed node.js using the installer (**Requirements, step 1**), then you will need admin rights to run the install script since it will install the Grunt-CLI and Bower plugins globally. Otherwise, if you installed Node in a custom folder to which you have write access, then sudo is unnecessary to run the script: *
 
     `$ ./install.sh`
 
 Tasks
 -----
 
-A established workflow using grunt tasks can be outlined as follows:
+An established workflow using grunt tasks can be outlined as follows:
 
 1.    Write units tests, then write code: `$ grunt test`
        
